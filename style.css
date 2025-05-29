@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 101px  ;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 64px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 46px;
+}
+.cards-wrapper{
+    display: flex;
+    margin-top: 23px;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    width: 300px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.card-content{
+    padding: 13px 27px 24px 27px;
+}
+.card-des{
+    margin-top: 18px;
+}
+body{
+    background-color: #CD5D5D;
+}
+.logo{
+    font-size: 40px;
+    margin-bottom: 23px;
+}
+span{
+    color: yellow;
+    font-size: 64px;
+}
